@@ -1,12 +1,11 @@
 import React from 'react';
-import NaviBar from './elements/NaviBar'
-// import NaviBar from './elements/NaviBar';
+import NaviBar from '../common/NaviBar';
 
 function Home() {
   return (
     <div className="Home">
       <NaviBar />
-      <h1>Hello</h1>
+      <h1>Home Page</h1>
     </div>
   );
 }
