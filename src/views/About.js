@@ -250,7 +250,7 @@ function About() {
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
               <Col>
-                <Image src={kevin} style={{height:"300px", width: "220px"}} alt="SVP" />
+                <Image src={kevin} style={{height:"300px", width: "200px"}} alt="SVP" />
               </Col>
               <Col>
                 <Image src={jonnie} style={{height:"300px", width:"220px"}} alt="secretary" />

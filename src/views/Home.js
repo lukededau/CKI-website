@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Container, Row, Col } from 'react-bootstrap';
+import { Image, Container, Row, Col, Button } from 'react-bootstrap';
 import NaviBar from '../common/NaviBar';
 import Footer from '../common/Footer';
 import ckiGroup from '../images/cki_group_pic.jpg';
@@ -63,15 +63,19 @@ function Home() {
         <Container>
           <Row style={{fontSize: "26px", textAlign: "center", paddingTop: "20px"}}>
             <Col>
-              <a style={{color: "yellow"}} href="https://docs.google.com/forms/d/e/1FAIpQLSccYZiDp5D8tGlmlJXKyPaG4oIMDxRMbwy699OnfBSO7unonQ/viewform">Service Event Evaluation Form</a>
+              <Button variant="secondary" size="sm" style={{width:"300px"}} href="https://docs.google.com/forms/d/e/1FAIpQLSccYZiDp5D8tGlmlJXKyPaG4oIMDxRMbwy699OnfBSO7unonQ/viewform">
+                <span style={{fontSize: "20px"}}>Service Event Evaluation Form</span>
+              </Button>
             </Col>
             <Col>
-              <a style={{color: "yellow"}} href="https://www.facebook.com/groups/ucsccirclek/">UCSC CKI Facebook Page</a>
+              <Button variant="secondary" size="sm" style={{width:"250px"}} href="https://www.facebook.com/groups/ucsccirclek/">
+                <span style={{fontSize: "20px"}}>UCSC CKI Facebook Page</span>
+              </Button>
             </Col>
           </Row>
         </Container>
         <div style={{height: "100px"}}/>
-        <Container style={{backgroundColor: "white", borderRadius: "10px"}}>
+        <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
               <b>Member Of The Month: TBA</b>
