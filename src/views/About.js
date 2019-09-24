@@ -132,10 +132,10 @@ function About() {
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
               <Col>
-                <Image src={pres} style={{height:"300px", width: "240px"}} alt="president" />
+                <Image src={pres} style={{height:"300px", width: "240px", borderRadius: "15px"}} alt="president" />
               </Col>
               <Col>
-                <Image src={anoop} style={{height:"300px", width:"240px"}} alt="AVP" />
+                <Image src={anoop} style={{height:"300px", width:"240px", borderRadius: "15px"}} alt="AVP" />
               </Col>
             </Row>
             <Row style={{fontSize:"26px", color: "white", textAlign: "center"}}>
@@ -166,13 +166,13 @@ function About() {
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
               <Col>
-                <Image src={jeevan} style={{height:"300px", width: "200px"}} alt="SVP" />
+                <Image src={jeevan} style={{height:"300px", width: "200px", borderRadius: "15px"}} alt="SVP" />
               </Col>
               <Col>
-                <Image src={gian} style={{height:"300px", width:"230px"}} alt="secretary" />
+                <Image src={gian} style={{height:"300px", width:"230px", borderRadius: "15px"}} alt="secretary" />
               </Col>
               <Col>
-                <Image src={nat} style={{height:"300px", width:"200px"}} alt="treasurer" />
+                <Image src={nat} style={{height:"300px", width:"200px", borderRadius: "15px"}} alt="treasurer" />
               </Col>
             </Row>
             <Row style={{fontSize:"26px", color: "white", textAlign: "center"}}>
@@ -216,10 +216,10 @@ function About() {
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
               <Col>
-                <Image src={luke} style={{height:"300px", width: "240px"}} alt="president" />
+                <Image src={luke} style={{height:"300px", width: "240px", borderRadius: "15px"}} alt="president" />
               </Col>
               <Col>
-                <Image src={ishan} style={{height:"300px", width:"220px"}} alt="AVP" />
+                <Image src={ishan} style={{height:"300px", width:"220px", borderRadius: "15px"}} alt="AVP" />
               </Col>
             </Row>
             <Row style={{fontSize:"26px", color: "white", textAlign: "center"}}>
@@ -250,13 +250,13 @@ function About() {
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
               <Col>
-                <Image src={kevin} style={{height:"300px", width: "200px"}} alt="SVP" />
+                <Image src={kevin} style={{height:"300px", width: "200px", borderRadius: "15px"}} alt="SVP" />
               </Col>
               <Col>
-                <Image src={jonnie} style={{height:"300px", width:"220px"}} alt="secretary" />
+                <Image src={jonnie} style={{height:"300px", width:"220px", borderRadius: "15px"}} alt="secretary" />
               </Col>
               <Col>
-                <Image src={justin} style={{height:"300px", width:"200px"}} alt="treasurer" />
+                <Image src={justin} style={{height:"300px", width:"200px", borderRadius: "15px"}} alt="treasurer" />
               </Col>
             </Row>
             <Row style={{fontSize:"26px", color: "white", textAlign: "center"}}>
