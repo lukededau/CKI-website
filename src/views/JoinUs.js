@@ -13,7 +13,15 @@ const divHead = {
   height: "300px",
   width: "100%",
   backgroundColor: "#F2E18B"
-};
+}
+
+
+const divBlock = {
+  height: "700px",
+  width: "100%",
+  paddingTop: "50px",
+  backgroundColor: "#003D79"
+}
 
 const jumboTitleStyle = {
   paddingTop: "8px",
@@ -41,23 +49,25 @@ function JoinUs() {
       <div style={divHead}>
         <div style={space}/>
           <Jumbotron style={jumboTitleStyle}>
-            <h1 style={{color: "white"}}>Join Us<span style={{color: "yellow"}}>!</span></h1>
+            <h1 style={{color: "white"}}>Join Us</h1>
           </Jumbotron>
         <Jumbotron style={jumboBodyStyle}>
-          <h3 style={{color: "white"}}>Stay updated with our emails!</h3>
+          <h3 style={{color: "white"}}>Stay updated with our emails<span style={{color: "yellow"}}>!</span></h3>
         </Jumbotron>
       </div>
-      <div style={space}/>
-      <Container>
-        <Row>
-          <Col>
-            <img
-            src={joinUs}
-            alt="join_us"
-            />
-          </Col>
-        </Row>
-      </Container>
+      <div style={divBlock}>
+        <Container>
+          <Row>
+            <Col>
+              <img
+              src={joinUs}
+              style={{height: "330px", width: "500px"}}
+              alt="join_us"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <Footer />
     </div>
   );

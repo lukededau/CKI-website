@@ -2,16 +2,13 @@ import React from 'react';
 import { Image, Container, Row, Col } from 'react-bootstrap';
 import NaviBar from '../common/NaviBar';
 import Footer from '../common/Footer';
-import emblem from '../images/District_Emblem.png';
+import ckiGroup from '../images/cki_group_pic.jpg';
 import FadeIn from '../components/FadeIn';
-import me from '../images/me.jpg'
 
 const font = {
   fontFamily: "Garamond",
   fontSize: 35,
   textAlign: "center",
-  color: "white",
-  border: "1px black solid"
 }
 
 const space = {
@@ -33,10 +30,10 @@ const divBlock = {
 const mainImage = {
   //flex: 1,
   display: 'block',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-  height: "500px",
-  width: "500px",
+  paddingLeft: '70px',
+  paddingRight: '70px',
+  height: "600px",
+  width: "100%",
   backgroundPosition: 'center',
   resizeMode: 'contain'
 };
@@ -47,24 +44,45 @@ function Home() {
     <div className="Home">
       <NaviBar />
       <div style={{height: "600px", width: "100%", backgroundColor: '#F2E18B'}}>
-        <div style={space} fluid="true"/>
         <div style={divHead}>
           <FadeIn height={50}>
             {onLoad => 
-            <Image src={emblem} style={mainImage} onLoad={onLoad} fluid>
+            <Image src={ckiGroup} style={mainImage} onLoad={onLoad}>
             </Image>}
           </FadeIn>
         </div>
       </div>
       <div style={divBlock}>
         <div style={space} fluid="true"/>
+        <div style={{fontSize: "34px", color: "white", textAlign: "center"}}>
+          <b><u><span style={{color: "yellow"}}>General Updates</span></u></b>
+        </div>
+        <div style={{fontSize: "26px", color: "white", textAlign: "center"}}>
+          <b>First General Meeting at Classroom Unit #1 from 8:00pm to 9:00pm on Oct. 3rd(Thursday)!!!</b>
+        </div>
         <Container>
+          <Row style={{fontSize: "26px", textAlign: "center", paddingTop: "20px"}}>
+            <Col>
+              <a style={{color: "yellow"}} href="https://docs.google.com/forms/d/e/1FAIpQLSccYZiDp5D8tGlmlJXKyPaG4oIMDxRMbwy699OnfBSO7unonQ/viewform">Service Event Evaluation Form</a>
+            </Col>
+            <Col>
+              <a style={{color: "yellow"}} href="https://www.facebook.com/groups/ucsccirclek/">UCSC CKI Facebook Page</a>
+            </Col>
+          </Row>
+        </Container>
+        <div style={{height: "100px"}}/>
+        <Container style={{backgroundColor: "white", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <p>Clown Of The Month: Luke Chang</p>
-              <img style={{margin: "auto", height: 240, width: 310}} src={me} alt="MOTM pic"/>
+              <b>Member Of The Month: TBA</b>
+              {/* <img style={{margin: "auto", height: 240, width: 310}} src={me} alt="MOTM pic"/> */}
             </Col>
-            <Col style={font}>2 of 2</Col>
+            <Col style={font}>
+              <b>Kiwanis Meetings</b>
+              <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Scotts Valley Kiwanis Meeting</b></h2>
+              <p style={{fontSize: "22px"}}>Wednesday 7:00AM-8:00AM
+              Green Hill Cafe, Scotts Valley CA (Every Wednesday, except the second week)</p>
+            </Col>
           </Row>
         </Container>
       </div>
