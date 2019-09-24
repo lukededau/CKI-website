@@ -49,7 +49,7 @@ function NaviBar() {
               <Nav.Link style={font} href="/about">About</Nav.Link>
               <Nav.Link style={font} href="/events">Events</Nav.Link>
               <Nav.Link style={font} href="/join-us">Join Us</Nav.Link>
-              <Nav.Link style={font} href="/past-events">Past Events</Nav.Link>
+              {/* <Nav.Link style={font} href="/past-events">Past Events</Nav.Link> */}
             </Nav>
             <Nav>
               <Nav.Link href="http://www.cnhcirclek.org">

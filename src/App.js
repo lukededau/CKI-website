@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/join-us" component={JoinUs} />
-        <Route exact path="/past-events" component={PastEvents} />
+        {/* <Route exact path="/past-events" component={PastEvents} /> */}
         <Route component={PageNotFound} />
       </Switch>
     </BrowserRouter>
