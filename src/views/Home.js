@@ -22,7 +22,7 @@ const divHead = {
 };
 
 const divBlock = {
-  height: "1000px",
+  height: "800px",
   width: "100%",
   backgroundColor: '#003D79'
 };
@@ -78,14 +78,18 @@ function Home() {
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <b>Member Of The Month: TBA</b>
+              <b><span style={{color: "#00A5D9"}}>Member Of The Month: TBA</span></b>
               {/* <img style={{margin: "auto", height: 240, width: 310}} src={me} alt="MOTM pic"/> */}
             </Col>
             <Col style={font}>
-              <b>Kiwanis Meetings</b>
+              <b><span style={{color: "#00A5D9"}}>Kiwanis Meetings</span></b>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Scotts Valley Kiwanis Meeting</b></h2>
               <p style={{fontSize: "22px"}}>Wednesday 7:00AM-8:00AM
               Green Hill Cafe, Scotts Valley CA (Every Wednesday, except the second week)</p>
+              <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Surf City Kiwanis Meeting</b></h2>
+              <p style={{fontSize: "22px"}}>Thursday 7:00AM-8:00AM
+              ​Pasatiempo Golf Course, Santa Cruz CA (Every Thursday)</p>
+              <h5 style={{paddingTop: "20px"}}><b>Contact <span style={{color: "#003D79"}}>ucsccki.kfamily@gmail.com</span> for more information!</b></h5>
             </Col>
           </Row>
         </Container>

@@ -30,7 +30,7 @@ const divHead = {
 };
 
 const divBlock = {
-  height: "3500px",
+  height: "3300px",
   width: "100%",
   paddingTop: "50px",
   backgroundColor: "#003D79"
@@ -127,7 +127,7 @@ function About() {
           </div>
           <div style={space}/>
           <div style={{fontSize: "35px", color: "yellow", textAlign: "center"}}>
-            <b><u>Our <span style={{color: "yellow"}}>Executive</span> Board <span style={{color: "yellow"}}>Members</span></u></b>
+            <b><u><span style={{color: "yellow"}}>Executive</span> Board <span style={{color: "yellow"}}>Members</span></u></b>
           </div>
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
@@ -211,7 +211,7 @@ function About() {
           </Container>
           <div style={space}/>
           <div style={{fontSize: "35px", color: "white", textAlign: "center"}}>
-            <b><u>Our Administrative Board Members</u></b>
+            <b><u>Administrative Board Members</u></b>
           </div>
           <Container>
             <Row style={{paddingTop: "20px", textAlign: "center"}}>
