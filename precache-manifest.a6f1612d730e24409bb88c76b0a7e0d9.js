@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39a60bc026cf9446d0171b68315549c5",
+    "revision": "2ef987a728b8844d2b25f6c58207b743",
     "url": "/CKI-Website/index.html"
   },
   {
-    "revision": "5f82a4fa7618b73a3084",
+    "revision": "e40646d55e1bc306b2f5",
     "url": "/CKI-Website/static/css/main.36497136.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CKI-Website/static/js/2.5a323800.chunk.js"
   },
   {
-    "revision": "5f82a4fa7618b73a3084",
-    "url": "/CKI-Website/static/js/main.cab94473.chunk.js"
+    "revision": "e40646d55e1bc306b2f5",
+    "url": "/CKI-Website/static/js/main.6b4765f1.chunk.js"
   },
   {
     "revision": "1756f125e84da967184b",
