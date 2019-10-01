@@ -17,7 +17,7 @@ const divHead = {
 
 
 const divBlock = {
-  height: "700px",
+  height: "450px",
   width: "100%",
   paddingTop: "50px",
   backgroundColor: "#003D79"
@@ -64,6 +64,9 @@ function JoinUs() {
               style={{height: "330px", width: "500px"}}
               alt="join_us"
               />
+            </Col>
+            <Col style={{paddingTop: "30px", fontSize: "21px", color: "white", textAlign: "left"}}>
+              Contact <span style={{color: "yellow"}}>sec.ucsc.cki@gmail.com</span> for questions or updates!
             </Col>
           </Row>
         </Container>

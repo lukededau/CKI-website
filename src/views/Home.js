@@ -22,7 +22,7 @@ const divHead = {
 };
 
 const divBlock = {
-  height: "800px",
+  height: "750px",
   width: "100%",
   backgroundColor: '#003D79'
 };

@@ -30,7 +30,7 @@ const divHead = {
 };
 
 const divBlock = {
-  height: "3300px",
+  height: "3580px",
   width: "100%",
   paddingTop: "50px",
   backgroundColor: "#003D79"
@@ -119,11 +119,23 @@ function About() {
             </Row>
           </Container>
           <div style={{height: "100px", width: "100%"}}/>
+          <div style={{fontSize: "30px", color: "yellow", textAlign: "center"}}>
+            <b>Our <span style={{color: "yellow"}}>Pledge</span></b>
+          </div>
+          <div style={{paddingTop: "6px", fontSize: "20px", color: "white", textAlign: "left"}}>
+            <p style={{marginLeft: "450px", marginRight: "350px"}}>
+            I pledge to uphold the objects of Circle K International,<br />
+            To foster compassion and goodwill toward others through service and leadership<br />
+            To develop my abilities and the abilities of all people<br />
+            And to dedicate myself to the realization of mankind’s potential.<br />
+            </p>
+          </div>
+          <div style={{height: "100px", width: "100%"}}/>
           <div style={{fontSize: "40px", color: "yellow", textAlign: "center"}}>
             <b>Board <span style={{color: "yellow"}}>Members</span></b>
           </div>
           <div style={{paddingTop: "30px", textAlign: "center"}}>
-            <Image src={boardGroup}  style={{height: "470px", width: "700px"}} alt="Board Members" />
+            <Image src={boardGroup}  style={{height: "470px", width: "700px", borderRadius: "15px"}} alt="Board Members" />
           </div>
           <div style={space}/>
           <div style={{fontSize: "35px", color: "yellow", textAlign: "center"}}>
