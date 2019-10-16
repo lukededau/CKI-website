@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import logo from '../images/CKI_Word.jpg';
 import emblem from '../images/District_Emblem.png';
 import bottomNav from '../images/bottom-nav.PNG';
@@ -47,7 +45,13 @@ function NaviBar() {
             <Nav className="mr-auto">
               <Nav.Link style={font} href="/">Home</Nav.Link>
               <Nav.Link style={font} href="/about">About</Nav.Link>
-              <Nav.Link style={font} href="/events">Events</Nav.Link>
+              <NavDropdown style={font} title="Events" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="/events">Calendar</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="https://crazykomp.cnhcirclek.org/">Crazy Kompetition for Infants 2019</NavDropdown.Item>
+                <NavDropdown.Item href="https://ftc.cnhcirclek.org/">Fall Training Conference 2019</NavDropdown.Item>
+                <NavDropdown.Item href="http://dcon.cnhcirclek.org/">District Convention 2019</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link style={font} href="/join-us">Join Us</Nav.Link>
               {/* <Nav.Link style={font} href="/past-events">Past Events</Nav.Link> */}
             </Nav>

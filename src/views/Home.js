@@ -58,7 +58,7 @@ function Home() {
           <b><u><span style={{color: "yellow"}}>General Updates</span></u></b>
         </div>
         <div style={{fontSize: "26px", color: "white", textAlign: "center"}}>
-          <b>First General Meeting at Classroom Unit #1 from 8:00pm to 9:00pm on Oct. 3rd(Thursday)!!!</b>
+          <b>Second General Meeting from 8:00pm to 9:00pm on Oct. 17th(Thursday)!!!</b>
         </div>
         <Container>
           <Row style={{fontSize: "26px", textAlign: "center", paddingTop: "20px"}}>
@@ -87,8 +87,8 @@ function Home() {
               <p style={{fontSize: "22px"}}>Wednesday 7:00AM-8:00AM
               Green Hill Cafe, Scotts Valley CA (Every Wednesday, except the second week)</p>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Surf City Kiwanis Meeting</b></h2>
-              <p style={{fontSize: "22px"}}>Thursday 7:00AM-8:00AM
-              ​Pasatiempo Golf Course, Santa Cruz CA (Every Thursday)</p>
+              <p style={{fontSize: "22px"}}>Tuesday 7:00AM-8:00AM
+              IHOP, Capitola CA (Every Thursday)</p>
               <h5 style={{paddingTop: "20px"}}><b>Contact <span style={{color: "#003D79"}}>ucsccki.kfamily@gmail.com</span> for more information!</b></h5>
             </Col>
           </Row>

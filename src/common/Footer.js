@@ -2,9 +2,9 @@ import React from 'react';
 import {Container, Row, Col, Button, Image} from 'react-bootstrap';
 import earthElement from '../images/earth_element.png';
 import waterElement from '../images/water_element.png';
-import sunsetIcon from '../images/icon_sunset.png';
+import sunsetIcon from '../images/logo_sunset_colored.png';
 import CKIIcon from '../images/circlek.png';
-import sunsetEmblem from '../images/sunset_emblem.png';
+import districtEmblem from '../images/District_Emblem.png';
 
 const bottomSpace = {
   borderTop: "2px solid grey",
@@ -16,11 +16,6 @@ const bottomSpace = {
 
 const textFormat = {
   textAlign: "center"
-}
-
-const sunset = {
-  width: "110px",
-  height: "110px"
 }
 
 const cki = {
@@ -62,13 +57,19 @@ function Footer() {
               </Row>
               <Row>
                 <Col>
-                    <Image src={sunsetIcon} style={sunset} alt="Sunset Icon"/>
+                  <a href="http://www.cnhcirclek.org/divisions/sunset/">
+                    <Image src={sunsetIcon} style={cki} alt="Sunset Emblem" />
+                  </a>
                 </Col>
                 <Col>
-                  <Image src={CKIIcon} style={cki} alt="CKI Icon"/>
+                  <a href="http://www.cnhcirclek.org/">
+                    <Image src={districtEmblem} style={cki} alt="CNH Icon"/>
+                  </a>
                 </Col>
                 <Col>
-                  <Image src={sunsetEmblem} style={cki} alt="Sunset Emblem" /> 
+                  <a href="https://www.circlek.org/">
+                    <Image src={CKIIcon} style={cki} alt="CKI Icon"/>
+                  </a> 
                 </Col>
               </Row>
             </Container>
