@@ -4,6 +4,7 @@ import NaviBar from '../common/NaviBar';
 import Footer from '../common/Footer';
 import ckiGroup from '../images/cki_group_pic.jpg';
 import FadeIn from '../components/FadeIn';
+import SOTW from '../images/Burger.jpg';
 
 const font = {
   fontFamily: "Garamond",
@@ -58,7 +59,7 @@ function Home() {
           <b><u><span style={{color: "yellow"}}>General Updates</span></u></b>
         </div>
         <div style={{fontSize: "26px", color: "white", textAlign: "center"}}>
-          <b>Second General Meeting from 8:00pm to 9:00pm on Oct. 17th(Thursday)!!!</b>
+          <b>General Meeting every <span style={{color: "yellow"}}>Thursday</span> from 8:00pm to 9:00pm!!!</b>
         </div>
         <Container>
           <Row style={{fontSize: "26px", textAlign: "center", paddingTop: "20px"}}>
@@ -78,18 +79,18 @@ function Home() {
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <b><span style={{color: "#00A5D9"}}>Member Of The Month: TBA</span></b>
-              {/* <img style={{margin: "auto", height: 240, width: 310}} src={me} alt="MOTM pic"/> */}
+              <b><span style={{color: "#00A5D9"}}>Slug of The Week: Dylan Burger</span></b>
+              <img style={{margin: "auto", height: 360, width: 360}} src={SOTW} alt="MOTM pic"/>
             </Col>
             <Col style={font}>
               <b><span style={{color: "#00A5D9"}}>Kiwanis Meetings</span></b>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Scotts Valley Kiwanis Meeting</b></h2>
               <p style={{fontSize: "22px"}}>Wednesday 7:00AM-8:00AM
-              Green Hill Cafe, Scotts Valley CA (Every Wednesday, except the second week)</p>
+              Green Hill Cafe, Scotts Valley CA</p>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Surf City Kiwanis Meeting</b></h2>
               <p style={{fontSize: "22px"}}>Tuesday 7:00AM-8:00AM
-              IHOP, Capitola CA (Every Thursday)</p>
-              <h5 style={{paddingTop: "20px"}}><b>Contact <span style={{color: "#003D79"}}>ucsccki.kfamily@gmail.com</span> for more information!</b></h5>
+              IHOP, Capitola CA</p>
+              <h5 style={{paddingTop: "20px", position: "absolute", bottom: 0}}><b>Contact <span style={{color: "#003D79"}}>ucsccki.kfamily@gmail.com</span> for more information!</b></h5>
             </Col>
           </Row>
         </Container>
