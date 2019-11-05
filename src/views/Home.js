@@ -4,7 +4,7 @@ import NaviBar from '../common/NaviBar';
 import Footer from '../common/Footer';
 import ckiGroup from '../images/cki_group_pic.jpg';
 import FadeIn from '../components/FadeIn';
-import SOTW from '../images/Burger.jpg';
+import SOTW from '../images/Elina.jpg';
 
 const font = {
   fontFamily: "Garamond",
@@ -79,7 +79,7 @@ function Home() {
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <b><span style={{color: "#00A5D9"}}>Slug of The Week: Dylan Burger</span></b>
+              <b><span style={{color: "#00A5D9"}}>Slug of The Month: Elina Luong</span></b>
               <img style={{margin: "auto", height: 360, width: 360}} src={SOTW} alt="MOTM pic"/>
             </Col>
             <Col style={font}>
