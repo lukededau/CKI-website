@@ -4,7 +4,7 @@ import NaviBar from '../common/NaviBar';
 import Footer from '../common/Footer';
 import ckiGroup from '../images/cki_group_pic.jpg';
 import FadeIn from '../components/FadeIn';
-import SOTW from '../images/Elina.jpg';
+import SOTW from '../images/Jerome.jpg';
 
 const font = {
   fontFamily: "Garamond",
@@ -59,7 +59,7 @@ function Home() {
           <b><u><span style={{color: "yellow"}}>General Updates</span></u></b>
         </div>
         <div style={{fontSize: "26px", color: "white", textAlign: "center"}}>
-          <b>General Meeting every <span style={{color: "yellow"}}>Thursday</span> from 8:00pm to 9:00pm!!!</b>
+          <b>General Meeting every <span style={{color: "yellow"}}>Thursday</span> from 8:00pm to 9:00pm at Thimann Lec. 1!!!</b>
         </div>
         <Container>
           <Row style={{fontSize: "26px", textAlign: "center", paddingTop: "20px"}}>
@@ -75,12 +75,15 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        <div style={{height: "100px"}}/>
+        <div style={{height: "30px"}}/>
+        <div style={{height: "60px", fontSize: "22px", color: "white", textAlign: "center"}}>
+            <p>Come to our installs committee meeting every <span style={{color: "yellow"}}>Wednesday</span> from 6:30pm to 8:30pm at Jbaskin 169!</p>
+        </div>
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <b><span style={{color: "#00A5D9"}}>Slug of The Month: Elina Luong</span></b>
-              <img style={{margin: "auto", height: 360, width: 360}} src={SOTW} alt="MOTM pic"/>
+              <b><span style={{color: "#00A5D9"}}>Slug of The Month: <span style={{color: "#F58025"}}>Jerome Ang</span></span></b>
+              <img style={{margin: "auto", height: 360, width: 280}} src={SOTW} alt="MOTM pic"/>
             </Col>
             <Col style={font}>
               <b><span style={{color: "#00A5D9"}}>Kiwanis Meetings</span></b>
