@@ -4,7 +4,7 @@ import NaviBar from '../common/NaviBar';
 import Footer from '../common/Footer';
 import ckiGroup from '../images/cki_group_pic.jpg';
 import FadeIn from '../components/FadeIn';
-import SOTW from '../images/Jerome.jpg';
+import SOTW from '../images/Luis.jpg';
 
 const font = {
   fontFamily: "Garamond",
@@ -82,8 +82,8 @@ function Home() {
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <b><span style={{color: "#00A5D9"}}>Slug of The Month: <span style={{color: "#F58025"}}>Jerome Ang</span></span></b>
-              <img style={{margin: "auto", height: 360, width: 280}} src={SOTW} alt="MOTM pic"/>
+              <b><span style={{color: "#00A5D9"}}>Slug of The Month: <span style={{color: "#F58025"}}>Luis Gonzales</span></span></b>
+              <img style={{margin: "auto", height: 340, width: 320}} src={SOTW} alt="MOTM pic"/>
             </Col>
             <Col style={font}>
               <b><span style={{color: "#00A5D9"}}>Kiwanis Meetings</span></b>
