@@ -23,7 +23,7 @@ const divHead = {
 };
 
 const divBlock = {
-  height: "750px",
+  height: "550px",
   width: "100%",
   backgroundColor: '#003D79'
 };
@@ -76,14 +76,14 @@ function Home() {
           </Row>
         </Container>
         <div style={{height: "30px"}}/>
-        <div style={{height: "60px", fontSize: "22px", color: "white", textAlign: "center"}}>
+        {/* <div style={{height: "60px", fontSize: "22px", color: "white", textAlign: "center"}}>
             <p>Come to our installs committee meeting every <span style={{color: "yellow"}}>Wednesday</span> from 6:30pm to 8:30pm at Jbaskin 169!</p>
-        </div>
+        </div> */}
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
-              <b><span style={{color: "#00A5D9"}}>Slug of The Month: <span style={{color: "#F58025"}}>Luis Gonzales</span></span></b>
-              <img style={{margin: "auto", height: 340, width: 320}} src={SOTW} alt="MOTM pic"/>
+              <b><span style={{color: "#00A5D9"}}>Slug of The Month: <span style={{color: "#F58025"}}>TBD</span></span></b>
+              {/* <img style={{margin: "auto", height: 340, width: 320}} src={SOTW} alt="MOTM pic"/> */}
             </Col>
             <Col style={font}>
               <b><span style={{color: "#00A5D9"}}>Kiwanis Meetings</span></b>
@@ -91,7 +91,7 @@ function Home() {
               <p style={{fontSize: "22px"}}>Wednesday 7:00AM-8:00AM
               Green Hill Cafe, Scotts Valley CA</p>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Surf City Kiwanis Meeting</b></h2>
-              <p style={{fontSize: "22px"}}>Tuesday 7:00AM-8:00AM
+              <p style={{fontSize: "22px", paddingBottom: "15px"}}>Tuesday 7:00AM-8:00AM
               IHOP, Capitola CA</p>
               <h5 style={{paddingTop: "20px", position: "absolute", bottom: 0}}><b>Contact <span style={{color: "#003D79"}}>ucsccki.kfamily@gmail.com</span> for more information!</b></h5>
             </Col>
