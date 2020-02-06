@@ -59,7 +59,7 @@ function Home() {
           <b><u><span style={{color: "yellow"}}>General Updates</span></u></b>
         </div>
         <div style={{fontSize: "26px", color: "white", textAlign: "center"}}>
-          <b>General Meeting every <span style={{color: "yellow"}}>Thursday</span> from 8:00pm to 9:00pm at Thimann Lec. 1!!!</b>
+          <b>General Meeting every <span style={{color: "yellow"}}>Thursday</span> from 8:00pm to 9:00pm at PSB 110!!!</b>
         </div>
         <Container>
           <Row style={{fontSize: "26px", textAlign: "center", paddingTop: "20px"}}>
@@ -76,9 +76,9 @@ function Home() {
           </Row>
         </Container>
         <div style={{height: "30px"}}/>
-        {/* <div style={{height: "60px", fontSize: "22px", color: "white", textAlign: "center"}}>
-            <p>Come to our installs committee meeting every <span style={{color: "yellow"}}>Wednesday</span> from 6:30pm to 8:30pm at Jbaskin 169!</p>
-        </div> */}
+        <div style={{height: "60px", fontSize: "22px", color: "white", textAlign: "center"}}>
+            <p>Come to our scrapbook committee meeting every <span style={{color: "yellow"}}>Tuesday</span> from 6:30pm to 8:30pm at Jbaskin 169!</p>
+        </div>
         <Container style={{backgroundColor: "#C7D6EE", borderRadius: "10px"}}>
           <Row>
             <Col style={font}>
@@ -89,7 +89,7 @@ function Home() {
               <b><span style={{color: "#00A5D9"}}>Kiwanis Meetings</span></b>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Scotts Valley Kiwanis Meeting</b></h2>
               <p style={{fontSize: "22px"}}>Wednesday 7:00AM-8:00AM
-              Green Hill Cafe, Scotts Valley CA</p>
+              Auntie Mame, Scotts Valley CA</p>
               <h2 style={{fontSize: "26px", paddingTop: "20px"}}><b>Surf City Kiwanis Meeting</b></h2>
               <p style={{fontSize: "22px", paddingBottom: "15px"}}>Tuesday 7:00AM-8:00AM
               IHOP, Capitola CA</p>
