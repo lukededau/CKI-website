@@ -48,9 +48,9 @@ function NaviBar() {
               <NavDropdown style={font} title="Events" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="/events">Calendar</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="https://crazykomp.cnhcirclek.org/">Crazy Kompetition for Infants 2019</NavDropdown.Item>
-                <NavDropdown.Item href="https://ftc.cnhcirclek.org/">Fall Training Conference 2019</NavDropdown.Item>
-                <NavDropdown.Item href="http://dcon.cnhcirclek.org/">District Convention 2019</NavDropdown.Item>
+                <NavDropdown.Item href="https://crazykomp.cnhcirclek.org/">Crazy Kompetition for Infants</NavDropdown.Item>
+                <NavDropdown.Item href="https://ftc.cnhcirclek.org/">Fall Training Conference</NavDropdown.Item>
+                <NavDropdown.Item href="http://dcon.cnhcirclek.org/">District Convention</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link style={font} href="/join-us">Join Us</Nav.Link>
               {/* <Nav.Link style={font} href="/past-events">Past Events</Nav.Link> */}
